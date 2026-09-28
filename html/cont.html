@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="ro">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contul meu — Polus</title>
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#continut">Sari la conținut</a>
+    <div class="site-wrapper">
+      <header class="site-header">
+        <a class="logo" href="index.html" aria-label="Polus — pagina principală">
+          <img class="pixel-icon" src="../PrettyPics/canva_logo.png" alt="Logo Polus realizat în Canva" />
+          polus
+        </a>
+        <div class="meniu">
+          <ul>
+            <li><a href="index.html">Magazin</a></li>
+            <li><a href="despre.html">Despre noi</a></li>
+            <li><a href="suport.html">Suport</a></li>
+          </ul>
+        </div>
+        <a
+          class="icon-button account-button"
+          href="cont.html"
+          aria-current="page"
+          aria-label="Contul meu"
+        >
+          <img class="pixel-icon" src="../PrettyPics/polus/cont.png" alt="" />
+        </a>
+      </header>
+      <main id="continut" class="secondary-page">
+        <section class="page-title">
+          <p>COLȚUL TĂU DE JOACĂ</p>
+          <h1>CONTUL MEU</h1>
+        </section>
+        <section class="content-panel account-panel pixel-shadow">
+          <img
+            class="account-mascot"
+            src="../PrettyPics/polus/robot.png"
+            alt="Robotul Polus te salută"
+            width="96"
+            height="108"
+          />
+          <h2>Cum te numești?</h2>
+          <p>Alege un nume pentru profilul tău de probă.</p>
+          <form class="simple-form" action="cont.html#bun-venit" method="get">
+            <label for="nume-cont">Numele tău</label>
+            <input
+              id="nume-cont"
+              type="text"
+              required
+              minlength="2"
+              maxlength="24"
+              placeholder="De exemplu: Joxnah"
+              autocomplete="nickname"
+            />
+            <button class="pink-button compact-button" type="submit">Continuă →</button>
+            <button class="reset-button" type="reset">Schimbă numele</button>
+          </form>
+          <p class="small-note">
+            Doar o demonstrație: numele nu este salvat și nu se creează un cont real.
+          </p>
+          <div id="bun-venit" class="form-confirmation" role="status">
+            <h3>Bine ai venit în Polus!</h3>
+            <p>Formularul a fost completat. Poți explora magazinul sau poți introduce alt nume.</p>
+            <a class="pink-button compact-button" href="index.html">Mergi la jocuri →</a>
+            <a class="restart-link" href="cont.html">Introdu alt nume</a>
+          </div>
+        </section>
+      </main>
+      <footer class="site-footer pixel-shadow">
+        <div>
+          <img class="pixel-icon" src="../PrettyPics/polus/inima.png" alt="" />
+          <p>Jocuri alese cu grijă.</p>
+        </div>
+        <a href="despre.html">Povestea polus ↗</a>
+      </footer>
+    </div>
+  </body>
+</html>

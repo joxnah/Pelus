@@ -1,18 +1,184 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ro">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pelus — Magazin de jocuri</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header>
-        <h1>Pelus</h1>
-    </header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Polus — jocuri mici, aventuri mari. Magazin demonstrativ al unui studio independent."
+    />
+    <title>Polus — Magazin</title>
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#magazin">Sari la magazin</a>
+    <div class="site-wrapper">
+      <header class="site-header">
+        <a class="logo" href="index.html" aria-label="Polus — pagina principală">
+          <img class="pixel-icon" src="../PrettyPics/canva_logo.png" alt="Logo Polus realizat în Canva" />
+          polus
+        </a>
+        <div class="meniu">
+          <ul>
+            <li><a href="index.html" aria-current="page">Magazin</a></li>
+            <li><a href="despre.html">Despre noi</a></li>
+            <li><a href="suport.html">Suport</a></li>
+          </ul>
+        </div>
+        <a class="icon-button account-button" href="cont.html" aria-label="Contul meu">
+          <img class="pixel-icon" src="../PrettyPics/polus/cont.png" alt="" />
+        </a>
+      </header>
+      <main id="magazin">
+        <div class="hero-grid">
+          <section class="intro-panel pixel-shadow" aria-labelledby="titlu">
+            <h1 id="titlu">
+              JOCURI MICI.
+              <br />
+              AVENTURI MARI.
+            </h1>
+            <p>Descoperă ceva nou de jucat.</p>
+            <a class="pink-button pixel-shadow" href="#jocuri">Vezi jocurile →</a>
+            <div class="mascot" aria-hidden="true">
+              <img src="../PrettyPics/polus/robot.png" alt="" width="112" height="126" />
+            </div>
+          </section>
+          <div class="featured-game pixel-shadow">
+            <p class="daily-game-title">JOCUL ZILEI</p>
+            <a class="featured-image" href="#cumpara" aria-label="Descoperă Moon Post">
+              <img
+                src="../PrettyPics/polus/moon-post.jpg"
+                alt="Peisaj din Starbound, imagine temporară pentru Moon Post"
+                fetchpriority="high"
+                width="1920"
+                height="1080"
+              />
+            </a>
+            <div class="game-info featured-info">
+              <div>
+                <h2>MOON POST</h2>
+                <p>Explorare · Indie</p>
+              </div>
+              <strong class="price">12,99 €</strong>
+              <a
+                class="icon-button pink"
+                href="#cumpara"
+                aria-label="Cumpără Moon Post — demonstrație"
+              >
+                <img class="pixel-icon" src="../PrettyPics/polus/cos.png" alt="" />
+              </a>
+            </div>
+          </div>
+        </div>
+        <section class="game-shelf" id="jocuri" aria-labelledby="catalog-title">
+          <div class="shelf-heading">
+            <h2 id="catalog-title">CATALOG DE JOCURI</h2>
+          </div>
+          <div class="game-grid">
+            <div class="game-card">
+              <a class="card-image" href="#cumpara" aria-label="Descoperă NIGHT SHIFT">
+                <img
+                  src="../PrettyPics/polus/night-shift.jpg"
+                  alt="Imagine temporară din Celeste pentru NIGHT SHIFT"
+                  width="1920"
+                  height="1080"
+                />
+              </a>
+              <div class="game-info">
+                <div>
+                  <h3>NIGHT SHIFT</h3>
+                  <p>Platformer · Indie</p>
+                </div>
+                <strong class="price">9,99 €</strong>
+                <a
+                  class="icon-button pink add-button"
+                  href="#cumpara"
+                  aria-label="Cumpără NIGHT SHIFT — demonstrație"
+                >
+                  +
+                </a>
+              </div>
+            </div>
+            <div class="game-card">
+              <a class="card-image" href="#cumpara" aria-label="Descoperă POCKET GARDEN">
+                <img
+                  src="../PrettyPics/polus/pocket-garden.jpg"
+                  alt="Imagine temporară din Stardew Valley pentru POCKET GARDEN"
+                  width="1920"
+                  height="1080"
+                />
+              </a>
+              <div class="game-info">
+                <div>
+                  <h3>POCKET GARDEN</h3>
+                  <p>Simulare · Indie</p>
+                </div>
+                <strong class="price">7,99 €</strong>
+                <a
+                  class="icon-button pink add-button"
+                  href="#cumpara"
+                  aria-label="Cumpără POCKET GARDEN — demonstrație"
+                >
+                  +
+                </a>
+              </div>
+            </div>
+            <div class="game-card">
+              <a class="card-image" href="#cumpara" aria-label="Descoperă GRID RACER">
+                <img
+                  src="../PrettyPics/polus/grid-racer.jpg"
+                  alt="Imagine temporară din Horizon Chase Turbo pentru GRID RACER"
+                  width="1920"
+                  height="1080"
+                />
+              </a>
+              <div class="game-info">
+                <div>
+                  <h3>GRID RACER</h3>
+                  <p>Curse · Indie</p>
+                </div>
+                <strong class="price">11,99 €</strong>
+                <a
+                  class="icon-button pink add-button"
+                  href="#cumpara"
+                  aria-label="Cumpără GRID RACER — demonstrație"
+                >
+                  +
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
 
-    <main>
-        <p>Magazinul nostru de jocuri este în construcție.</p>
-    </main>
-</body>
+        <section class="info-panel" id="cumpara" aria-labelledby="cumpara-title">
+          <a class="close-panel" href="#jocuri" aria-label="Închide comanda">×</a>
+          <h2 id="cumpara-title">Alege următoarea aventură.</h2>
+          <p>Comandă demonstrativă — fără plăți reale.</p>
+          <form action="index.html#confirmare" method="get">
+            <label for="joc">Jocul tău</label>
+            <select id="joc" required>
+              <option value="">Alege un joc</option>
+              <option>Moon Post — 12,99 €</option>
+              <option>Night Shift — 9,99 €</option>
+              <option>Pocket Garden — 7,99 €</option>
+              <option>Grid Racer — 11,99 €</option>
+            </select>
+            <button class="pink-button" type="submit">Confirmă comanda de test →</button>
+          </form>
+        </section>
+        <section class="info-panel" id="confirmare" aria-labelledby="confirmare-title">
+          <h2 id="confirmare-title">Demonstrație încheiată!</h2>
+          <p>Nu a fost efectuată nicio plată și nu a fost creată o comandă reală.</p>
+          <a class="pink-button" href="#jocuri">Înapoi la jocuri →</a>
+        </section>
+      </main>
+      <footer class="site-footer pixel-shadow">
+        <div>
+          <img class="pixel-icon" src="../PrettyPics/polus/inima.png" alt="" />
+          <p>Jocuri alese cu grijă.</p>
+        </div>
+        <a href="despre.html">Povestea polus ↗</a>
+      </footer>
+    </div>
+  </body>
 </html>

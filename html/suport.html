@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="ro">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Suport — Polus</title>
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#continut">Sari la conținut</a>
+    <div class="site-wrapper">
+      <header class="site-header">
+        <a class="logo" href="index.html" aria-label="Polus — pagina principală">
+          <img class="pixel-icon" src="../PrettyPics/canva_logo.png" alt="Logo Polus realizat în Canva" />
+          polus
+        </a>
+        <div class="meniu">
+          <ul>
+            <li><a href="index.html">Magazin</a></li>
+            <li><a href="despre.html">Despre noi</a></li>
+            <li><a href="suport.html" aria-current="page">Suport</a></li>
+          </ul>
+        </div>
+        <a class="icon-button account-button" href="cont.html" aria-label="Contul meu">
+          <img class="pixel-icon" src="../PrettyPics/polus/cont.png" alt="" />
+        </a>
+      </header>
+      <main id="continut" class="secondary-page">
+        <section class="page-title">
+          <p>AI NEVOIE DE AJUTOR?</p>
+          <h1>SUPORT</h1>
+        </section>
+        <div class="support-columns">
+          <section class="content-panel">
+            <h2>Întrebări frecvente</h2>
+            <div class="questions">
+              <details open>
+                <summary>Pot cumpăra jocurile?</summary>
+                <p>
+                  Poți încerca formularul de comandă din magazin. Este doar o demonstrație: nu
+                  plătești și nu primești un joc.
+                </p>
+              </details>
+              <details>
+                <summary>Cum aleg un joc?</summary>
+                <p>
+                  Apasă pe coperta lui sau pe butonul roz, apoi alege jocul din lista formularului.
+                </p>
+              </details>
+              <details>
+                <summary>Am nevoie de un cont?</summary>
+                <p>
+                  Nu. Pagina Cont este un formular de probă în care poți introduce un nume, fără
+                  parolă.
+                </p>
+              </details>
+            </div>
+            <div class="support-mascot">
+              <img src="../PrettyPics/polus/robot.png" alt="Robotul Polus" width="64" height="72" />
+              <div>
+                <h3>Mai ai o întrebare?</h3>
+                <p>Încearcă formularul de alături.</p>
+              </div>
+            </div>
+          </section>
+          <section class="content-panel support-form pixel-shadow">
+            <h2>Scrie-ne</h2>
+            <p>Formular demonstrativ. Mesajele nu sunt trimise.</p>
+            <form class="simple-form" action="suport.html#mesaj-trimis" method="get">
+              <label for="nume">Nume</label>
+              <input
+                id="nume"
+                type="text"
+                required
+                minlength="2"
+                maxlength="40"
+                placeholder="Alex Test"
+              />
+              <label for="email">Email</label>
+              <input
+                id="email"
+                type="email"
+                required
+                maxlength="120"
+                placeholder="alex@example.com"
+              />
+              <label for="mesaj">Mesaj</label>
+              <textarea
+                id="mesaj"
+                rows="4"
+                required
+                minlength="10"
+                maxlength="1000"
+                placeholder="Scrie un mesaj de test…"
+              ></textarea>
+              <button class="pink-button compact-button" type="submit">
+                Trimite mesajul de test →
+              </button>
+            </form>
+            <div id="mesaj-trimis" class="form-confirmation" role="status">
+              <h3>Demonstrație încheiată!</h3>
+              <p>Ai completat formularul. Mesajul nu a fost trimis sau salvat.</p>
+              <a href="suport.html">Încearcă din nou →</a>
+            </div>
+          </section>
+        </div>
+      </main>
+      <footer class="site-footer pixel-shadow">
+        <div>
+          <img class="pixel-icon" src="../PrettyPics/polus/inima.png" alt="" />
+          <p>Jocuri alese cu grijă.</p>
+        </div>
+        <a href="despre.html">Povestea polus ↗</a>
+      </footer>
+    </div>
+  </body>
+</html>
