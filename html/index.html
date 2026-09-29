@@ -25,8 +25,9 @@
             <li><a href="suport.html">Suport</a></li>
           </ul>
         </div>
-        <a class="icon-button account-button" href="cont.html" aria-label="Contul meu">
-          <img class="pixel-icon" src="../PrettyPics/polus/cont.png" alt="" />
+        <a class="icon-button purchase-button pink" href="cumpara.html" aria-label="Cumpără un joc">
+          <img class="pixel-icon" src="../PrettyPics/polus/cos.png" alt="" />
+          Cumpără
         </a>
       </header>
       <main id="magazin">
@@ -45,7 +46,7 @@
           </section>
           <div class="featured-game pixel-shadow">
             <p class="daily-game-title">JOCUL ZILEI</p>
-            <a class="featured-image" href="#cumpara" aria-label="Descoperă Moon Post">
+            <a class="featured-image" href="#moon-post" aria-label="Descoperă Moon Post">
               <img
                 src="../PrettyPics/polus/moon-post.jpg"
                 alt="Peisaj din Starbound, imagine temporară pentru Moon Post"
@@ -60,13 +61,7 @@
                 <p>Explorare · Indie</p>
               </div>
               <strong class="price">12,99 €</strong>
-              <a
-                class="icon-button pink"
-                href="#cumpara"
-                aria-label="Cumpără Moon Post — demonstrație"
-              >
-                <img class="pixel-icon" src="../PrettyPics/polus/cos.png" alt="" />
-              </a>
+              <a class="icon-button pink add-button" href="#moon-post" aria-label="Detalii despre MOON POST">+</a>
             </div>
           </div>
         </div>
@@ -76,7 +71,7 @@
           </div>
           <div class="game-grid">
             <div class="game-card">
-              <a class="card-image" href="#cumpara" aria-label="Descoperă NIGHT SHIFT">
+              <a class="card-image" href="#night-shift" aria-label="Descoperă NIGHT SHIFT">
                 <img
                   src="../PrettyPics/polus/night-shift.jpg"
                   alt="Imagine temporară din Celeste pentru NIGHT SHIFT"
@@ -92,15 +87,15 @@
                 <strong class="price">9,99 €</strong>
                 <a
                   class="icon-button pink add-button"
-                  href="#cumpara"
-                  aria-label="Cumpără NIGHT SHIFT — demonstrație"
+                  href="#night-shift"
+                  aria-label="Detalii despre NIGHT SHIFT"
                 >
                   +
                 </a>
               </div>
             </div>
             <div class="game-card">
-              <a class="card-image" href="#cumpara" aria-label="Descoperă POCKET GARDEN">
+              <a class="card-image" href="#pocket-garden" aria-label="Descoperă POCKET GARDEN">
                 <img
                   src="../PrettyPics/polus/pocket-garden.jpg"
                   alt="Imagine temporară din Stardew Valley pentru POCKET GARDEN"
@@ -116,15 +111,15 @@
                 <strong class="price">7,99 €</strong>
                 <a
                   class="icon-button pink add-button"
-                  href="#cumpara"
-                  aria-label="Cumpără POCKET GARDEN — demonstrație"
+                  href="#pocket-garden"
+                  aria-label="Detalii despre POCKET GARDEN"
                 >
                   +
                 </a>
               </div>
             </div>
             <div class="game-card">
-              <a class="card-image" href="#cumpara" aria-label="Descoperă GRID RACER">
+              <a class="card-image" href="#grid-racer" aria-label="Descoperă GRID RACER">
                 <img
                   src="../PrettyPics/polus/grid-racer.jpg"
                   alt="Imagine temporară din Horizon Chase Turbo pentru GRID RACER"
@@ -140,36 +135,141 @@
                 <strong class="price">11,99 €</strong>
                 <a
                   class="icon-button pink add-button"
-                  href="#cumpara"
-                  aria-label="Cumpără GRID RACER — demonstrație"
+                  href="#grid-racer"
+                  aria-label="Detalii despre GRID RACER"
                 >
                   +
                 </a>
               </div>
             </div>
+            <div class="game-card">
+              <a class="card-image" href="#moon-post" aria-label="Descoperă Moon Post">
+                <img src="../PrettyPics/polus/moon-post.jpg" alt="Imagine temporară pentru Moon Post" width="1920" height="1080" />
+              </a>
+              <div class="game-info">
+                <div><h3>MOON POST</h3><p>Explorare · Indie</p></div>
+                <strong class="price">12,99 €</strong>
+                <a class="icon-button pink add-button" href="#moon-post" aria-label="Detalii despre Moon Post">+</a>
+              </div>
+            </div>
+            <div class="game-card">
+              <a class="card-image" href="#green-valley" aria-label="Descoperă Green Valley">
+                <img src="../PrettyPics/polus/pocket-garden.jpg" alt="Imagine temporară pentru Green Valley" width="1920" height="1080" />
+              </a>
+              <div class="game-info">
+                <div><h3>GREEN VALLEY</h3><p>Simulare · Indie</p></div>
+                <strong class="price">6,99 €</strong>
+                <a class="icon-button pink add-button" href="#green-valley" aria-label="Detalii despre Green Valley">+</a>
+              </div>
+            </div>
+            <div class="game-card">
+              <a class="card-image" href="#turbo-run" aria-label="Descoperă Turbo Run">
+                <img src="../PrettyPics/polus/grid-racer.jpg" alt="Imagine temporară pentru Turbo Run" width="1920" height="1080" />
+              </a>
+              <div class="game-info">
+                <div><h3>TURBO RUN</h3><p>Curse · Indie</p></div>
+                <strong class="price">10,99 €</strong>
+                <a class="icon-button pink add-button" href="#turbo-run" aria-label="Detalii despre Turbo Run">+</a>
+              </div>
+            </div>
           </div>
         </section>
 
-        <section class="info-panel" id="cumpara" aria-labelledby="cumpara-title">
-          <a class="close-panel" href="#jocuri" aria-label="Închide comanda">×</a>
-          <h2 id="cumpara-title">Alege următoarea aventură.</h2>
-          <p>Comandă demonstrativă — fără plăți reale.</p>
-          <form action="index.html#confirmare" method="get">
-            <label for="joc">Jocul tău</label>
-            <select id="joc" required>
-              <option value="">Alege un joc</option>
-              <option>Moon Post — 12,99 €</option>
-              <option>Night Shift — 9,99 €</option>
-              <option>Pocket Garden — 7,99 €</option>
-              <option>Grid Racer — 11,99 €</option>
-            </select>
-            <button class="pink-button" type="submit">Confirmă comanda de test →</button>
-          </form>
+        <section class="info-panel" id="moon-post">
+          <a class="close-panel" href="#jocuri" aria-label="Închide detaliile">×</a>
+          <h2>MOON POST</h2>
+          <p>Pornește într-o călătorie pe Lună, livrează scrisori și descoperă locuitorii unor colonii îndepărtate. Explorează peisajele și găsește drumuri noi printre cratere.</p>
+          <h3>Video de prezentare</h3>
+          <video controls preload="none" poster="../PrettyPics/polus/moon-post.jpg">
+            Browserul tău nu poate reda acest video.
+          </video>
+          <h3>Muzică / OST</h3>
+          <audio controls preload="none">
+            Browserul tău nu poate reda acest audio.
+          </audio>
+          <p>Videoclipul și muzica vor fi adăugate în curând.</p>
+          <a class="pink-button" href="cumpara.html">Cumpără →</a>
         </section>
-        <section class="info-panel" id="confirmare" aria-labelledby="confirmare-title">
-          <h2 id="confirmare-title">Demonstrație încheiată!</h2>
-          <p>Nu a fost efectuată nicio plată și nu a fost creată o comandă reală.</p>
-          <a class="pink-button" href="#jocuri">Înapoi la jocuri →</a>
+
+        <section class="info-panel" id="night-shift">
+          <a class="close-panel" href="#jocuri" aria-label="Închide detaliile">×</a>
+          <h2>NIGHT SHIFT</h2>
+          <p>Explorează un oraș după lăsarea întunericului. Sari peste obstacole, descoperă drumuri ascunse și găsește ieșirea de pe acoperișuri.</p>
+          <h3>Video de prezentare</h3>
+          <video controls preload="none" poster="../PrettyPics/polus/night-shift.jpg">
+            Browserul tău nu poate reda acest video.
+          </video>
+          <h3>Muzică / OST</h3>
+          <audio controls preload="none">
+            Browserul tău nu poate reda acest audio.
+          </audio>
+          <p>Videoclipul și muzica vor fi adăugate în curând.</p>
+          <a class="pink-button" href="cumpara.html">Cumpără →</a>
+        </section>
+
+        <section class="info-panel" id="pocket-garden">
+          <a class="close-panel" href="#jocuri" aria-label="Închide detaliile">×</a>
+          <h2>POCKET GARDEN</h2>
+          <p>Construiește o grădină mică în ritmul tău. Plantează flori, îngrijește plantele și transformă locul într-un colt plin de culoare.</p>
+          <h3>Video de prezentare</h3>
+          <video controls preload="none" poster="../PrettyPics/polus/pocket-garden.jpg">
+            Browserul tău nu poate reda acest video.
+          </video>
+          <h3>Muzică / OST</h3>
+          <audio controls preload="none">
+            Browserul tău nu poate reda acest audio.
+          </audio>
+          <p>Videoclipul și muzica vor fi adăugate în curând.</p>
+          <a class="pink-button" href="cumpara.html">Cumpără →</a>
+        </section>
+
+        <section class="info-panel" id="grid-racer">
+          <a class="close-panel" href="#jocuri" aria-label="Închide detaliile">×</a>
+          <h2>GRID RACER</h2>
+          <p>Intră în curse rapide pe șosele colorate. Învată traseele, evită obstacolele și încearcă să ajungi primul la linia de sosire.</p>
+          <h3>Video de prezentare</h3>
+          <video controls preload="none" poster="../PrettyPics/polus/grid-racer.jpg">
+            Browserul tău nu poate reda acest video.
+          </video>
+          <h3>Muzică / OST</h3>
+          <audio controls preload="none">
+            Browserul tău nu poate reda acest audio.
+          </audio>
+          <p>Videoclipul și muzica vor fi adăugate în curând.</p>
+          <a class="pink-button" href="cumpara.html">Cumpără →</a>
+        </section>
+
+
+        <section class="info-panel" id="green-valley">
+          <a class="close-panel" href="#jocuri" aria-label="Închide detaliile">×</a>
+          <h2>GREEN VALLEY</h2>
+          <p>Construiește o fermă, crește plante și descoperă viata într-un sat liniștit.</p>
+          <h3>Video de prezentare</h3>
+          <video controls preload="none" poster="../PrettyPics/polus/pocket-garden.jpg">
+            Browserul tău nu poate reda acest video.
+          </video>
+          <h3>Muzică / OST</h3>
+          <audio controls preload="none">
+            Browserul tău nu poate reda acest audio.
+          </audio>
+          <p>Videoclipul și muzica vor fi adăugate în curând.</p>
+          <a class="pink-button" href="cumpara.html">Cumpără →</a>
+        </section>
+
+        <section class="info-panel" id="turbo-run">
+          <a class="close-panel" href="#jocuri" aria-label="Închide detaliile">×</a>
+          <h2>TURBO RUN</h2>
+          <p>Alege o mașină și încearcă să obtii cel mai bun timp pe fiecare traseu.</p>
+          <h3>Video de prezentare</h3>
+          <video controls preload="none" poster="../PrettyPics/polus/grid-racer.jpg">
+            Browserul tău nu poate reda acest video.
+          </video>
+          <h3>Muzică / OST</h3>
+          <audio controls preload="none">
+            Browserul tău nu poate reda acest audio.
+          </audio>
+          <p>Videoclipul și muzica vor fi adăugate în curând.</p>
+          <a class="pink-button" href="cumpara.html">Cumpără →</a>
         </section>
       </main>
       <footer class="site-footer pixel-shadow">

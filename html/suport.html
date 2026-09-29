@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="../css/style.css" />
   </head>
   <body>
-    <a class="skip-link" href="#continut">Sari la conținut</a>
+    <a class="skip-link" href="#continut">Sari la continut</a>
     <div class="site-wrapper">
       <header class="site-header">
         <a class="logo" href="index.html" aria-label="Polus — pagina principală">
@@ -21,8 +21,9 @@
             <li><a href="suport.html" aria-current="page">Suport</a></li>
           </ul>
         </div>
-        <a class="icon-button account-button" href="cont.html" aria-label="Contul meu">
-          <img class="pixel-icon" src="../PrettyPics/polus/cont.png" alt="" />
+        <a class="icon-button purchase-button pink" href="cumpara.html" aria-label="Cumpără un joc">
+          <img class="pixel-icon" src="../PrettyPics/polus/cos.png" alt="" />
+          Cumpără
         </a>
       </header>
       <main id="continut" class="secondary-page">
@@ -34,26 +35,25 @@
           <section class="content-panel">
             <h2>Întrebări frecvente</h2>
             <div class="questions">
-              <details open>
-                <summary>Pot cumpăra jocurile?</summary>
+              <div class="question">
+                <h3>Pot cumpăra jocurile?</h3>
                 <p>
-                  Poți încerca formularul de comandă din magazin. Este doar o demonstrație: nu
+                  Poti încerca formularul de comandă din magazin. Este doar o demonstratie: nu
                   plătești și nu primești un joc.
                 </p>
-              </details>
-              <details>
-                <summary>Cum aleg un joc?</summary>
+              </div>
+              <div class="question">
+                <h3>Cum aleg un joc?</h3>
                 <p>
-                  Apasă pe coperta lui sau pe butonul roz, apoi alege jocul din lista formularului.
+                  Apasă pe copertă sau pe + pentru detalii, apoi pe Cumpără pentru a deschide pagina de comandă.
                 </p>
-              </details>
-              <details>
-                <summary>Am nevoie de un cont?</summary>
+              </div>
+              <div class="question">
+                <h3>Am nevoie de un cont?</h3>
                 <p>
-                  Nu. Pagina Cont este un formular de probă în care poți introduce un nume, fără
-                  parolă.
+                  Nu. Alegi jocul pe pagina Cumpără și confirmi comanda de probă, fără cont sau plată reală.
                 </p>
-              </details>
+              </div>
             </div>
             <div class="support-mascot">
               <img src="../PrettyPics/polus/robot.png" alt="Robotul Polus" width="64" height="72" />
@@ -65,7 +65,6 @@
           </section>
           <section class="content-panel support-form pixel-shadow">
             <h2>Scrie-ne</h2>
-            <p>Formular demonstrativ. Mesajele nu sunt trimise.</p>
             <form class="simple-form" action="suport.html#mesaj-trimis" method="get">
               <label for="nume">Nume</label>
               <input
@@ -98,7 +97,7 @@
               </button>
             </form>
             <div id="mesaj-trimis" class="form-confirmation" role="status">
-              <h3>Demonstrație încheiată!</h3>
+              <h3>Demonstratie încheiată!</h3>
               <p>Ai completat formularul. Mesajul nu a fost trimis sau salvat.</p>
               <a href="suport.html">Încearcă din nou →</a>
             </div>
