@@ -22,4 +22,4 @@ Joc sursă: Horizon Chase Turbo
 Pagina: https://store.steampowered.com/app/389140/
 Imagine: https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/389140/ss_16181d2ac2bbe7701009628254d3b85659b46fbe.1920x1080.jpg?t=1780329689
 
-Fonturile Jersey 10 și Pixelify Sans sunt din Google Fonts. Licențele OFL sunt incluse în css/fonts.
+Fontul folosit este Rajdhani, în variantele Regular și Bold. Licenta OFL este inclusă în css/fonts/rajdhani-OFL.txt.

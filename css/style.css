@@ -81,8 +81,11 @@ button {
 .meniu a {
   font-size: 22px;
 }
-a:hover, .meniu a[aria-current="page"] {
-  text-decoration: underline;
+a:hover {
+  text-decoration: none;
+}
+.site-header a:hover, .site-header a[aria-current="page"] {
+  text-decoration: none;
 }
 .icon-button {
   display: flex;
@@ -416,8 +419,8 @@ video {
   font-size: 20px;
   font-weight: bold;
 }
-.account-button[aria-current="page"] {
-  box-shadow: 3px 3px #111827;
+.account-button:hover, .account-button[aria-current="page"] {
+  box-shadow: none;
 }
 .account-layout {
   display: grid;
